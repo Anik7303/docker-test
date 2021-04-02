@@ -1,8 +1,8 @@
 FROM node:14.16.0
 
-RUN mkdir /docker-dist
+RUN mkdir /app
 
-WORKDIR /docker-dist
+WORKDIR /app
 
 COPY . .
 
