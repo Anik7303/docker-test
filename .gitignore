@@ -1,0 +1,9 @@
+# node packages
+/node_modules
+
+# environment variables
+.env
+
+# misc
+debug.log*
+

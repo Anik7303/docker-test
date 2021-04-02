@@ -1,0 +1,22 @@
+{
+    "name": "docker-test",
+    "version": "1.0.0",
+    "main": "index.js",
+    "private": "true",
+    "license": "MIT",
+    "author": {
+        "name": "Anik Mohammad",
+        "email": "anik7303@gmail.com"
+    },
+    "scripts": {
+        "start": "node index.js",
+        "dev": "nodemon index.js"
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^4.17.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.7"
+    }
+}
